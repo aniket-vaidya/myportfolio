@@ -4,6 +4,7 @@ body{
      }
 
   .nav-link span {
+    align-content: center;
         color: rgb(186, 100, 239)} 
          a{
             color: black;
@@ -186,7 +187,7 @@ position:relative ;
     @media (max-width: 992px) {
       #header {
         width: 300px;
-        background: #fff;
+        /* background: #fff; */
         border-right: 1px solid #e6e9ec;
         left: -300px;
       }
@@ -211,11 +212,13 @@ position:relative ;
     margin: 0;
     padding: 0;
     list-style: none;
+    
   }
 
   .nav-menu > ul > li {
     white-space: nowrap;
     position: relative;
+    
   }
 
   .nav-menu a, 
